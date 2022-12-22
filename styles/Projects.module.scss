@@ -5,7 +5,7 @@
   @include mixins.container;
   background: colors.$backgroundColor-purple;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   overflow: hidden;
   display: grid;
   grid-template-columns: 1fr;
