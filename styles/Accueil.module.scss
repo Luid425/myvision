@@ -10,6 +10,13 @@
   width: 100vw;
   height: 100vh;
   // overflow: hidden;
+  position: relative;
+  .wave {
+  position: absolute;
+  bottom: -3px;
+  width: 100%;
+  
+}
 }
 
 .content {
@@ -52,12 +59,7 @@
     z-index: 100;
     // border: 1px solid red;
   }
-.wave {
-  position: absolute;
-  bottom: -3px;
-  width: 100%;
-  
-}
+
 
 @media (min-width: 481px) and (max-width: 768px) {
   .content {
