@@ -105,7 +105,7 @@ const Projects = () => {
           />
         </span>
       </div>
-      <a href="https://github.com/Luid425" target="_blank">
+      <a href="https://github.com/Luid425" target="_blank" rel="noreferrer">
         <Image src="/icons/github.png" alt="github" width="50" height="50" />
       </a>
     </div>

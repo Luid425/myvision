@@ -8,7 +8,7 @@ const Accueil = () => {
       <div class={style.container}>
         <article class={style.content}>
           <h1 class="title">
-            "Consistensy beats talent<span>.</span>"
+            &ldquo;Consistensy beats talent<span>.</span>&rdquo;
           </h1>
           <p>L. Carolina-Litan</p>
         </article>
