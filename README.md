@@ -1,5 +1,7 @@
 # MY VISION
 
+![My Image](public/websitePicture.png)
+
 This showcase website is my portfolio.
 
 ## Getting Started
