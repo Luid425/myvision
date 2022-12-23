@@ -2,7 +2,8 @@
 
 ![My Image](public/websitePicture.png)
 
-This showcase website is my portfolio.
+https://myvision.vercel.app/
+This showcase website is my portfolio.  
 
 ## Getting Started
 
