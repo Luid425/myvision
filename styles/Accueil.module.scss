@@ -57,9 +57,11 @@
     size: 100px;
     margin: 0 calc(50% - 1em);
     z-index: 100;
-    // opacity: 0;
+    opacity: 0;
     animation-name: release;
-    animation-duration: 7s;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
     // border: 1px solid red;
   }
 
