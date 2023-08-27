@@ -14,7 +14,7 @@ import ufc from "../public/projects/ufc.png";
 const Projects = () => {
   return (
     <div class={style.container}>
-      <h2>Projects</h2>
+      <h2>Projets</h2>
       <div class={style.slider}>
         <span style={{ "--i": 1 }}>
           <Image
