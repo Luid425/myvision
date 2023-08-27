@@ -7,10 +7,10 @@ const Accueil = () => {
     <>
       <div class={style.container}>
         <article class={style.content}>
-          <h1 class="title">
+          <h1 class={style.title}>
             &ldquo;La régularité bat le talent<span>.</span>&rdquo;
           </h1>
-          <p>L. Carolina-Litan</p>
+          <p class={style.title2}>L. Carolina-Litan</p>
         </article>
         <svg
           class={style.wave}

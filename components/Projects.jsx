@@ -2,12 +2,14 @@ import style from "../styles/Projects.module.scss";
 import Image from "next/image";
 import luluDesign from "../public/projects/luluDesign.png";
 import worldMap from "../public/projects/worldMap.png";
-import serverAdmin from "../public/projects/serverAdmin.png";
 import wosEcommerce from "../public/projects/wosEcommerce.png";
 import spiralGalaxy from "../public/projects/spiralGalaxy.png";
 import hauntedHouse from "../public/projects/hauntedHouse.png";
-import luluFitness from "../public/projects/luluFitness.png";
 import luluMovies from "../public/projects/luluMovies.png";
+import africa from "../public/projects/africa.png";
+import caraibe_trip from "../public/projects/caraibe_trip.png";
+import sony from "../public/projects/sony.png";
+import ufc from "../public/projects/ufc.png";
 
 const Projects = () => {
   return (
@@ -17,7 +19,7 @@ const Projects = () => {
         <span style={{ "--i": 1 }}>
           <Image
             src={luluDesign}
-            alt="Lulu Design showcase website"
+            alt="Lulu Design site vitrine, IT Luxuoso"
             quality={100}
             fill
             sizes="100vw"
@@ -29,7 +31,7 @@ const Projects = () => {
         <span style={{ "--i": 2 }}>
           <Image
             src={worldMap}
-            alt="World Map data visualization"
+            alt="World Map data visualisation, IT Luxuoso"
             fill
             sizes="100vw"
             style={{
@@ -39,8 +41,8 @@ const Projects = () => {
         </span>
         <span style={{ "--i": 3 }}>
           <Image
-            src={serverAdmin}
-            alt="Server admin interface"
+            src={africa}
+            alt="L'Afrique est gréante, IT Luxuoso"
             quality={100}
             fill
             sizes="100vw"
@@ -51,8 +53,8 @@ const Projects = () => {
         </span>
         <span style={{ "--i": 4 }}>
           <Image
-            src={luluMovies}
-            alt="Lulu Movies search Engile"
+            src={caraibe_trip}
+            alt="Caraibes Trip agence de voyage, IT Luxuoso"
             fill
             sizes="100vw"
             style={{
@@ -63,7 +65,7 @@ const Projects = () => {
         <span style={{ "--i": 5 }}>
           <Image
             src={wosEcommerce}
-            alt="WOS e-commerce"
+            alt="WOS e-commerce, IT Luxuoso"
             fill
             sizes="100vw"
             style={{
@@ -74,7 +76,7 @@ const Projects = () => {
         <span style={{ "--i": 6 }}>
           <Image
             src={spiralGalaxy}
-            alt="3D Spiral galaxy"
+            alt="3D Spiral galaxy, IT Luxuoso"
             fill
             sizes="100vw"
             style={{
@@ -85,7 +87,7 @@ const Projects = () => {
         <span style={{ "--i": 7 }}>
           <Image
             src={hauntedHouse}
-            alt="3D Haunted house environment"
+            alt="environnement 3D  maison hantée, IT Luxuoso"
             fill
             sizes="100vw"
             style={{
@@ -95,8 +97,8 @@ const Projects = () => {
         </span>
         <span style={{ "--i": 8 }}>
           <Image
-            src={luluFitness}
-            alt="Lulu Fitness showcase website"
+            src={sony}
+            alt="Sony site vitrine marketing numérique, IT Luxuoso"
             fill
             sizes="100vw"
             style={{
