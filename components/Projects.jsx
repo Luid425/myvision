@@ -10,36 +10,14 @@ import africa from "../public/projects/africa.png";
 import caraibe_trip from "../public/projects/caraibe_trip.png";
 import sony from "../public/projects/sony.png";
 import ufc from "../public/projects/ufc.png";
+import mysherpa from "../public/projects/mysherpa.png";
 
 const Projects = () => {
   return (
     <div class={style.container}>
       <h2>Projets</h2>
       <div class={style.slider}>
-        <span style={{ "--i": 1 }}>
-          <Image
-            src={luluDesign}
-            alt="Lulu Design site vitrine, IT Luxuoso"
-            quality={100}
-            fill
-            sizes="100vw"
-            style={{
-              objectFit: "cover",
-            }}
-          />
-        </span>
-        <span style={{ "--i": 2 }}>
-          <Image
-            src={worldMap}
-            alt="World Map data visualisation, IT Luxuoso"
-            fill
-            sizes="100vw"
-            style={{
-              objectFit: "cover",
-            }}
-          />
-        </span>
-        <span style={{ "--i": 3 }}>
+      <span style={{ "--i": 1 }}>
           <Image
             src={africa}
             alt="L'Afrique est gréante, IT Luxuoso"
@@ -51,29 +29,18 @@ const Projects = () => {
             }}
           />
         </span>
+        <span style={{ "--i": 2 }}>
+          <Image
+            src={ufc}
+            alt="environnement 3D  maison hantée, IT Luxuoso"
+            fill
+            sizes="100vw"
+            style={{
+              objectFit: "cover",
+            }}
+          />
+        </span>
         <span style={{ "--i": 4 }}>
-          <Image
-            src={caraibe_trip}
-            alt="Caraibes Trip agence de voyage, IT Luxuoso"
-            fill
-            sizes="100vw"
-            style={{
-              objectFit: "cover",
-            }}
-          />
-        </span>
-        <span style={{ "--i": 5 }}>
-          <Image
-            src={wosEcommerce}
-            alt="WOS e-commerce, IT Luxuoso"
-            fill
-            sizes="100vw"
-            style={{
-              objectFit: "cover",
-            }}
-          />
-        </span>
-        <span style={{ "--i": 6 }}>
           <Image
             src={spiralGalaxy}
             alt="3D Spiral galaxy, IT Luxuoso"
@@ -84,10 +51,44 @@ const Projects = () => {
             }}
           />
         </span>
+        <span style={{ "--i": 5 }}>
+          <Image
+            src={luluMovies}
+            alt="Lulu Movies, IT Luxuoso"
+            fill
+            sizes="100vw"
+            style={{
+              objectFit: "cover",
+            }}
+          />
+        </span>
+        <span style={{ "--i": 3 }}>
+          <Image
+            src={luluDesign}
+            alt="Lulu Design site vitrine, IT Luxuoso"
+            quality={100}
+            fill
+            sizes="100vw"
+            style={{
+              objectFit: "cover",
+            }}
+          />
+        </span>
+        <span style={{ "--i": 6 }}>
+          <Image
+            src={wosEcommerce}
+            alt="WOS e-commerce, IT Luxuoso"
+            fill
+            sizes="100vw"
+            style={{
+              objectFit: "cover",
+            }}
+          />
+        </span>
         <span style={{ "--i": 7 }}>
           <Image
-            src={hauntedHouse}
-            alt="environnement 3D  maison hantée, IT Luxuoso"
+            src={caraibe_trip}
+            alt="Caraibes Trip agence de voyage, IT Luxuoso"
             fill
             sizes="100vw"
             style={{
