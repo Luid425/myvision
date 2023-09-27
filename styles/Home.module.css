@@ -1,8 +1,7 @@
 @use "global/colors";
 
 .container {
-  width: 100vw;
-  position: relative;
+  width: 100%;
   /* padding: 0 2rem; */
 
   .header {

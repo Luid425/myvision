@@ -1,13 +1,31 @@
 import style from "../styles/Accueil.module.scss";
+import Image from "next/image";
 import { BsArrowDown } from "react-icons/bs";
 import { IconContext } from "react-icons";
 import Loading from "./Loading";
 import { Suspense } from "react";
+import ld_logo from "../public/icons/lulu-design.svg";
 
 const Accueil = () => {
   return (
     <>
         <div class={style.container}>
+          <header class={style.header}>
+              <div class={style.background}></div>
+              <div class={style.image}>
+                <Image
+                  
+                  src={ld_logo}
+                  alt="Lulu Design Logo"
+                  quality={100}
+                />
+              </div>
+              <div class={style.menu}>
+                <a href="https://www.linkedin.com/in/luidgi-carolina-litan" target="_blank">Linkedin</a>
+                <a href="https://github.com/Luid425" target="_blank">Github</a>
+                <a href="mailto:itluxuoso@gmail.com">Mail</a>
+              </div>
+          </header>
           <article class={style.content}>
             <h1 class={style.title}>
               &ldquo;La régularité bat le talent<span>.</span>&rdquo;
